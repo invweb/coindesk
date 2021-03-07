@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.MainFragment">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".fragment.MainFragment">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/show_chart"
+            android:layout_marginLeft="@dimen/basic_margin"
+            android:layout_marginRight="@dimen/basic_margin"
+            android:layout_marginTop="@dimen/basic_margin"
+            />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1px"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="@dimen/basic_margin"
+            android:layout_marginBottom="@dimen/basic_margin"
+            />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/disclaimer"
+                    style="@style/TextViewDisclaimerStyle"
+                    android:text="@string/disclaimer"
+                    android:layout_marginStart="@dimen/basic_margin"
+                    />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1px"
+                    android:background="@android:color/darker_gray"
+                    android:layout_marginTop="@dimen/basic_margin"
+                    android:layout_marginBottom="@dimen/basic_margin"
+                    />
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_marginStart="@dimen/basic_margin"
+                    style="@style/TextViewTimeStyleBold"
+                    tools:text="@string/time"
+                    />
+
+                <TextView
+                    android:id="@+id/chartName"
+                    android:layout_marginStart="@dimen/basic_margin"
+                    style="@style/TextViewChartNameStyle"
+                    tools:text="@string/chartname"
+                    />
+            </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1px"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="@dimen/basic_margin"
+            />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/basic_margin"
+                android:layout_marginStart="@dimen/basic_margin"
+                >
+
+                <TextView
+                    android:id="@+id/description_euro"
+                    style="@style/TextViewChartNameStyle"
+                    tools:text="@string/description_euro"
+                    />
+
+                <TextView
+                    android:id="@+id/code_euro"
+                    style="@style/TextViewChartNameStyle"
+                    tools:text="@string/code_euro"
+                    />
+
+
+                <TextView
+                    android:id="@+id/rate_euro"
+                    style="@style/TextViewChartNameStyle"
+                    tools:text="@string/rate_euro"
+                    />
+
+
+                <TextView
+                    android:id="@+id/symbol_euro"
+                    style="@style/TextViewChartNameStyle"
+                    tools:text="@string/symbol_euro"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1px"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="@dimen/basic_margin"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/basic_margin"
+                android:layout_marginStart="@dimen/basic_margin"
+                >
+
+                <TextView
+                    android:id="@+id/description_dollar"
+                    style="@style/TextViewChartNameStyle"
+                    tools:text="@string/description_dollar"
+                    />
+
+                <TextView
+                    android:id="@+id/code_dollar"
+                    style="@style/TextViewChartNameStyle"
+                    tools:text="@string/code_dollar"
+                    />
+
+
+                <TextView
+                    android:id="@+id/rate_dollar"
+                    style="@style/TextViewChartNameStyle"
+                    tools:text="@string/rate_dollar"
+                    />
+
+
+                <TextView
+                    android:id="@+id/symbol_dollar"
+                    style="@style/TextViewChartNameStyle"
+                    tools:text="@string/symbol_dollar"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1px"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="@dimen/basic_margin"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/basic_margin"
+                android:layout_marginStart="@dimen/basic_margin"
+                >
+
+                <TextView
+                    android:id="@+id/description_gbp"
+                    style="@style/TextViewChartNameStyle"
+                    tools:text="@string/description_gbp"
+                    />
+
+                <TextView
+                    android:id="@+id/code_gbp"
+                    style="@style/TextViewChartNameStyle"
+                    tools:text="@string/code_gbp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/rate_gbp"
+                    style="@style/TextViewChartNameStyle"
+                    tools:text="@string/rate_gbp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/symbol_gbp"
+                    style="@style/TextViewChartNameStyle"
+                    tools:text="@string/symbol_gbp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+</ScrollView>

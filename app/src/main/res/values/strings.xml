@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">coindesk</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment 2</string>
+
+    <string name="shared_preference_check">check</string>
+    <string name="shared_preference_time">shared_preference_time</string>
+    <string name="shared_preference_date_millis">dateMillis</string>
+    <string name="date_format">dd/MM/yyyy hh:mm:ss</string>
+    <string name="show_chart">Show chart</string>
+    <string name="disclaimer">disclaimer</string>
+    <string name="time">time</string>
+    <string name="chartname">chartName</string>
+    <string name="description_euro">description_euro</string>
+    <string name="code_euro">code_euro</string>
+    <string name="rate_euro">rate_euro</string>
+    <string name="symbol_euro">symbol_euro</string>
+    <string name="description_dollar">description_dollar</string>
+    <string name="code_dollar">code_dollar</string>
+    <string name="rate_dollar">rate_dollar</string>
+    <string name="symbol_dollar">symbol_dollar</string>
+    <string name="description_gbp">description_gbp</string>
+    <string name="code_gbp">code_gbp</string>
+    <string name="rate_gbp">rate_gbp</string>
+    <string name="symbol_gbp">symbol_gbp</string>
+
+</resources>
